@@ -117,6 +117,7 @@ NOTE: While GW ScholarSpace has not been tested with Solr 7.7.1, a plain Hyrax 2
   ```
     JAVA_OPTS="${JAVA_OPTS} -Dfcrepo.postgresql.username=<ADD ISPN DB USERNAME HERE>"
     JAVA_OPTS="${JAVA_OPTS} -Dfcrepo.postgresql.password=<ADD ISPN DB PASSWORD HERE>"
+    update the JAVA_HOME here in this file as well
   ```
 
 ### Create a Fedora settings folder
