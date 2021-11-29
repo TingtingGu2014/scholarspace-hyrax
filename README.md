@@ -137,7 +137,7 @@ NOTE: While GW ScholarSpace has not been tested with Solr 7.7.1, a plain Hyrax 2
     cd /opt/install
     wget https://github.com/fcrepo4-exts/fcrepo-webapp-plus/releases/download/fcrepo-webapp-plus-4.7.1/fcrepo-webapp-plus-audit-4.7.1.war
     sudo cp fcrepo-webapp-plus-audit-4.7.1.war /var/lib/tomcat7/webapps/fcrepo.war
-    sudo service solr restart
+    sudo service tomcat7 restart
   ```
 * Wait for tomcat to deploy the war file before proceeding to the next step.  This can be verified by watching `/var/log/tomcat7/catalina.out`
    
